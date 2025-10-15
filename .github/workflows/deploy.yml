@@ -32,6 +32,7 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{ secrets.TEST1_KEY }}
         REMOTE_HOST: ${{ secrets.TEST1_HOST }}
+        REMOTE_PORT: ${{ secrets.TEST1_PORT }} 
         REMOTE_USER: ${{ secrets.TEST1_USER }}
         ARGS: "-avzL"
         SOURCE: "dist/"
