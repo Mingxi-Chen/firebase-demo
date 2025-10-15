@@ -36,8 +36,8 @@ jobs:
         REMOTE_USER: ${{ secrets.TEST1_USER }}
         ARGS: "-avzL"
         SOURCE: "dist/"
-        TARGET: "/home/track_a/mingxi/firebase-demo"
+        TARGET: "/home/track_a/mingxi/firebase-demo/dist"
         SCRIPT_BEFORE: |
-          mkdir -p /server/www/firebase-demo
+          mkdir -p /home/track_a/mingxi/firebase-demo/dist
 #        SCRIPT_AFTER: |
 
