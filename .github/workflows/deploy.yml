@@ -37,5 +37,7 @@ jobs:
         ARGS: "-avzL"
         SOURCE: "dist/"
         TARGET: "/server/www/firebase-demo"
+        SCRIPT_BEFORE: |
+          mkdir -p /server/www/firebase-demo
 #        SCRIPT_AFTER: |
 
